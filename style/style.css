@@ -1,0 +1,54 @@
+body {
+  background-color: #dddddd;
+  font-family: ubuntu;
+  color: white;
+}
+
+.box {
+  margin: 100px auto;
+  width: 750px;
+  height: 500px;
+  background-color: #222831;
+  padding: 50px;
+  border-radius: 50px;
+}
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  outline: none;
+  border: 10px solid #404b69;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 500;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  background-color: white;
+}
+
+.p {
+  background-image: url(../images/phone.png);
+}
+
+.music {
+  background-image: url(../images/music.png);
+}
+.map {
+  background-image: url(../images/map.png);
+}
+.contact {
+  background-image: url(../images/contact.png);
+}
+.weather {
+  background-image: url(../images/weather.png);
+}
+.setting {
+  background-image: url(../images/setting.png);
+}
